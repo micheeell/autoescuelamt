@@ -1,0 +1,35 @@
+*.tmp
+*.bak
+*.swp
+*.log
+*.todo
+
+
+# Eclipse/Aptana
+*.pydevproject
+.project
+.metadata
+.settings
+.classpath
+.loadpath
+
+
+# PhpStorm
+.idea
+
+
+# Netbeans
+nbproject
+
+
+# Windows
+# image file caches
+Thumbs.db
+# folder config file
+Desktop.ini
+
+
+# Mac/iOS
+.DS_Store
+# PHPStorm
+.idea
