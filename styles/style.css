@@ -1,0 +1,40 @@
+article.main > article {
+  padding: 0 1.5625%;
+}
+
+article.section {
+  clear: both;
+  margin: 0 auto 50px;
+}
+
+article.section header {
+  text-align: center;
+  line-height: .5;
+  overflow: hidden;
+}
+
+article.section header h4 {
+  display: inline-block;
+  position: relative;
+}
+
+article.section header h4::before,
+article.section header h4::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #1d1d1d;
+  border-top: 1px solid #1d1d1d;
+  top: 0;
+  width: 600px;
+}
+
+article.section header h4::before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+article.section header h4::after {
+  left: 100%;
+  margin-left: 15px;
+}
